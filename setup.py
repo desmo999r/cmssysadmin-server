@@ -5,7 +5,7 @@ from setuptools import setup,find_packages
 
 setup(
 		name='python-cmsracklayout',
-		version='0.1',
+		version='0.2',
 		description='CMS Sysadmin Django applications',
 		author='Jean-Marc ANDRE',
 		author_email='jm.andre@cern.ch',
@@ -14,6 +14,6 @@ setup(
 #		packages=['cmsracklayout', 'cmsracklayout.api', 'cmsracklayout.racklayout'],
 		packages=find_packages(),
 		package_data = {
-			'':  ['*.csv'],
+			'':  ['*.example'],
 		},
 )

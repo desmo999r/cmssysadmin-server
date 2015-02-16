@@ -9,7 +9,7 @@ usr/lib/python2.6/site-packages/cmsracklayout/racklayout/models.py
 usr/lib/python2.6/site-packages/cmsracklayout/racklayout/tests.py
 usr/lib/python2.6/site-packages/cmsracklayout/racklayout/views.py
 usr/lib/python2.6/site-packages/cmsracklayout/racklayout/__init__.py
-usr/lib/python2.6/site-packages/cmsracklayout/racklayout/racklayout.csv
+usr/lib/python2.6/site-packages/cmsracklayout/racklayout/racklayout.csv.example
 usr/lib/python2.6/site-packages/cmsracklayout/__init__.pyc
 usr/lib/python2.6/site-packages/cmsracklayout/manage.pyc
 usr/lib/python2.6/site-packages/cmsracklayout/settings.pyc

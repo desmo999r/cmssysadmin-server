@@ -11,8 +11,7 @@ class RackLayoutHandler(BaseHandler):
 		base = RackLayout.objects
 		try:
 			machine = base.filter(rack_name__exact=rack_name.lower()) \
-					.filter(switch_port__exact=switch_port) \
-					.get(motherboard__exact=motherboard)
+					.get(switch_port__exact=switch_port)
 			return machine
 		except ObjectDoesNotExist as err:
 			print err

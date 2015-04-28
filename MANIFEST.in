@@ -1,2 +1,3 @@
+include httpd/cmsracklayout.conf
 include cmsracklayout/racklayout/racklayout.csv.example
 include cmsracklayout/racklayout.wsgi

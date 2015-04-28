@@ -16,4 +16,5 @@ setup(
 		package_data = {
 			'':  ['*.example'],
 		},
+        data_files=[('/etc/httpd/conf.d', ['httpd/cmsracklayout.conf'])],
 )
